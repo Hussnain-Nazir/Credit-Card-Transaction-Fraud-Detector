@@ -42,10 +42,10 @@ project builds a full pipeline - from raw data to a deployable web app - that:
 ## Project Structure
 
 ```
-Credit_Card_Transaction_Fraud_Detector/
+Credit-Card-Transaction-Fraud-Detector/
 │
 ├── data/
-│   └── Credit_Card_Transactions.csv     # Dataset
+│   └── credit_card_transactions.csv     # Dataset
 │
 ├── models/
 │   ├── model.pkl                        # Trained Best Model
@@ -53,7 +53,7 @@ Credit_Card_Transaction_Fraud_Detector/
 │   └── metadata.pkl                      # Deature list, Categories, Metrics
 │
 ├── notebook/
-│   └── Credit_Card_Transaction_Fraud_Detector_Pipeline.ipynb   # Complete ML Pipeline Notebook
+│   └── credit_card_transaction_fraud_detector_pipeline.ipynb   # Complete ML Pipeline Notebook
 │
 ├── app.py                                # Streamlit Web App
 ├── requirements.txt                      # Python Dependencies
@@ -75,14 +75,14 @@ Credit_Card_Transaction_Fraud_Detector/
    pip install -r requirements.txt
    ```
 
-4. **Add the dataset**: place your `Credit_Card_Transactions.csv` file inside
+4. **Add the dataset**: place your `credit_card_transactions.csv` file inside
    the `data/` folder (already included in this project).
 
 ## How to Run the Notebook
 
 1. Launch Jupyter:
    ```bash
-   jupyter notebook notebook/Credit_Card_Transaction_Fraud_Detector_Pipeline.ipynb
+   jupyter notebook notebook/credit_card_transaction_fraud_detector_pipeline.ipynb
    ```
 2. Run all cells from top to bottom. This will:
    - Explore the dataset
