@@ -122,16 +122,6 @@ Then open the local URL shown in your terminal (typically `http://localhost:8501
 *XGBoost was selected as the production model based on the best balance of
 precision, recall, and ROC-AUC.*
 
-## Future Improvements
-
-- Hyperparameter tuning with GridSearchCV / Optuna
-- Add behavioral/rolling features per cardholder (e.g. average spend, transaction velocity)
-- Threshold tuning to optimize for business-specific precision/recall trade-offs
-- Model explainability with SHAP values in the app
-- Batch prediction support (CSV upload) in the Streamlit app
-- Deploy as a REST API (FastAPI) alongside the Streamlit front end
-- Add automated model monitoring for data/concept drift in production
-
 ---
 
 **Disclaimer:** This project is for educational purposes. Do not use it as-is
